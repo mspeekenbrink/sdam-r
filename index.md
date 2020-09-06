@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## R-package to accompany "Statistics: Data analysis and modelling"
 
-You can use the [editor on GitHub](https://github.com/mspeekenbrink/sdam-r/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Installation
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The R package can be installed directly from the source on GitHub, or from
+binary packages provided.
 
-### Markdown
+#### Installation from binary
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Download latest binary for Windows
+Download latest binary for Mac
+Download latest binary for Linux
 
-```markdown
-Syntax highlighted code block
+#### Installation from source
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+1. You will need to have R installed and I would also recommend R-studio.
+2. On MS Windows, you will need (https://cran.r-project.org/bin/windows/Rtools/)[Rtools]
+3. In R, install the `devtools` package
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mspeekenbrink/sdam-r/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+install.packages("devtools")
+```
+4. Now install the `sdamr` package from GitHub by typing
+```
+devtools::install_github("mspeekenbrink/sdamr")
+```
