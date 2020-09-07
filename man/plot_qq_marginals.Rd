@@ -6,6 +6,7 @@
 \usage{
 plot_qq_marginals(
   x,
+  breaks = "Sturges",
   newpage = TRUE,
   xlab = "Observed Quantiles",
   ylab = "Theoretical quantiles",
@@ -21,13 +22,17 @@ plot_qq_marginals(
 \arguments{
 \item{x}{A numeric vector}
 
+\item{breaks}{How to compute breakpoints for the histogram. See ?hist}
+
+\item{newpage}{(logical) Should the plot be plotted on a new page?}
+
 \item{xlab}{Label for x-axis}
 
 \item{ylab}{Label for y-axis}
 
-\item{xlim}{range of x values shown}
+\item{xlim}{Range of x values shown}
 
-\item{ylim}{range of y values shown}
+\item{ylim}{Range of y values shown}
 
 \item{main}{Main title}
 

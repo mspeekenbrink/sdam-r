@@ -7,10 +7,12 @@
 #' A Q-Q plot with histograms in the marginals
 #' 
 #' @param x A numeric vector
+#' @param breaks How to compute breakpoints for the histogram. See ?hist
+#' @param newpage (logical) Should the plot be plotted on a new page?
 #' @param xlab Label for x-axis
 #' @param ylab Label for y-axis
-#' @param xlim range of x values shown
-#' @param ylim range of y values shown
+#' @param xlim Range of x values shown
+#' @param ylim Range of y values shown
 #' @param main Main title
 #' @param sub Subtitle
 #' @param axes (logical) Draw axes?
@@ -21,6 +23,7 @@
 #' plot_qq_marginals(anchoring$everest_feet)
 #' @export
 plot_qq_marginals <- function(x,
+                     breaks = "Sturges",
                      newpage = TRUE,
                      xlab = "Observed Quantiles",
                      ylab = "Theoretical quantiles",
@@ -126,7 +129,7 @@ plot_qq_marginals <- function(x,
   
   
   ## histogram
-  hist <- hist(x,plot=FALSE)
+  hist <- hist(x,breaks=breaks,plot=FALSE)
   # 24/10/2017: intensities disappeared; use density
   hist$intensities <- hist$density
   maxh <- max(hist$intensities)
