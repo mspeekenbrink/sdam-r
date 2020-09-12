@@ -28,6 +28,26 @@
 #' @source \url{https://en.wikipedia.org/wiki/Paul_the_Octopus}
 "fifa2010"
 
+#' FIFA 2010 team statistics
+#' 
+#' Statistics for all teams playing in the 2010 FIFA world cup.
+#' 
+#' @format A data frame with 11 variables and 32 rows
+#' \describe{
+#'   \item{nr}{Unique numeric identifier for each team}
+#'   \item{team}{Name of the team (i.e. country)}
+#'   \item{matches_played}{Number of matches played}
+#'   \item{goals_for}{Total goals counted against their opponents}
+#'   \item{goals_scored}{Total goals scored against their opponents}
+#'   \item{goals_against}{Goals counted against the team}
+#'   \item{penalty_goal}{Number of penalty goals scored}
+#'   \item{own_goals_for}{Number of own goals}
+#'   \item{yellow_cards}{Number of yellow cards}
+#'   \item{indirect_red_cards}{Number of indirect red cards}
+#'   \item{direct_red_cards}{Number of direct red cards}
+#' }
+#' @source FIFA website. \url{https://www.fifa.com/worldcup/archive/southafrica2010/statistics/teams/goal-scored} and \url{https://www.fifa.com/worldcup/archive/southafrica2010/statistics/teams/disciplinary}
+
 #' Anchoring
 #'
 #' Numerical judgments of the height of the Mount Everest after a low or high anchor.
