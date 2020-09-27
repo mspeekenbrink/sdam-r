@@ -47,6 +47,7 @@
 #'   \item{direct_red_cards}{Number of direct red cards}
 #' }
 #' @source FIFA website. \url{https://www.fifa.com/worldcup/archive/southafrica2010/statistics/teams/goal-scored} and \url{https://www.fifa.com/worldcup/archive/southafrica2010/statistics/teams/disciplinary}
+"fifa2010teams"
 
 #' Anchoring
 #'

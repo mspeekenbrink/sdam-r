@@ -12,8 +12,8 @@
 #' plot_raincloud(anchoring,y=everest_feet)
 #' plot_raincloud(anchoring,y=everest_feet,groups=anchor)
 #' plot_raincloud(anchoring,y=everest_feet,groups=anchor) + 
-#'     facet_wrap(~us_or_international) + 
-#'     ylab("How high is Mount Everest (in feet)?")
+#'     ggplot2::facet_wrap(~us_or_international) + 
+#'     ggplot2::ylab("How high is Mount Everest (in feet)?")
 #' @export
 plot_raincloud <- function(data,y,horizontal=FALSE,groups,point_size=.5,...) {
   y <- dplyr::enquo(y)

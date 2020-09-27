@@ -7,7 +7,7 @@
 Allen M, Poggiali D, Whitaker K et al. Raincloud plots: a multi-platform tool for robust data visualization. Wellcome Open Res 2019, 4:63 (\url{https://doi.org/10.12688/wellcomeopenres.15191.1})
 }
 \usage{
-plot_raincloud(data, y, horizontal = FALSE, groups, ...)
+plot_raincloud(data, y, horizontal = FALSE, groups, point_size = 0.5, ...)
 }
 \arguments{
 \item{data}{Data.frame (or tibble)}
@@ -17,6 +17,8 @@ plot_raincloud(data, y, horizontal = FALSE, groups, ...)
 \item{horizontal}{(logical) change the orientation of the plot}
 
 \item{groups}{An unquoted name of grouping variable in data (ideally a factor)}
+
+\item{point_size}{Size of the jittered points}
 
 \item{...}{Other arguments, passed to ggplot(aes(...))}
 }
@@ -28,6 +30,6 @@ data(anchoring)
 plot_raincloud(anchoring,y=everest_feet)
 plot_raincloud(anchoring,y=everest_feet,groups=anchor)
 plot_raincloud(anchoring,y=everest_feet,groups=anchor) + 
-    facet_wrap(~us_or_international) + 
-    ylab("How high is Mount Everest (in feet)?")
+    ggplot2::facet_wrap(~us_or_international) + 
+    ggplot2::ylab("How high is Mount Everest (in feet)?")
 }
