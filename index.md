@@ -1,4 +1,7 @@
-## R-package to accompany "Statistics: Data analysis and modelling"
+## sdamr: an R-package to accompany "Statistics: Data analysis and modelling"
+
+Note: the R package has the name `sdamr` but the github repository has the name `sdam-r`. Maybe a little 
+confusing, but oh well..
 
 ### Installation
 
@@ -18,12 +21,16 @@ Download latest binary for Linux
 #### Installation from source
 
 1. You will need to have R installed and I would also recommend R-studio.
-2. On MS Windows, you will need (https://cran.r-project.org/bin/windows/Rtools/)[Rtools]
-3. In R, install the `devtools` package
+<!-- 2. On MS Windows, you will need (https://cran.r-project.org/bin/windows/Rtools/)[Rtools] -->
+2. In R, install the `remotes` package
 ```
 install.packages("remotes")
 ```
-4. Now install the `sdamr` package from GitHub by typing
+3. Now install the `sdamr` package from GitHub by typing
 ```
-remotes::install_github("mspeekenbrink/sdamr")
+remotes::install_github("mspeekenbrink/sdam-r")
+```
+4. Test if it works by typing
+```
+library(sdamr)
 ```
