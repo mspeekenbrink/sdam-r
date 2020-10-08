@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "m.speekenbrink@ucl.ac.uk",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Data sets and functions to support "Statistics: Data analysis and modeling"
+Description: Data sets and functions to support Statistics: Data analysis and modeling.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
