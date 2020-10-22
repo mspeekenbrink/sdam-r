@@ -135,8 +135,8 @@
 #' \describe{
 #'   \item{iid}{(numeric) unique ID variable of participant}
 #'   \item{pid}{(numeric) unique ID variable of date partner}
-#'   \item{age}{(numeric) age in years}
 #'   \item{gender}{(character) gender of participant (male or female)}
+#'   \item{age}{(numeric) age in years}
 #'   \item{self_like}{(numeric) how much they like their date partner in general (between  1 and 10)}
 #'   \item{other_like}{(numeric) how much their date partner likes them (between  1 and 10)}
 #'   \item{self_want}{do they want to go on another date with their date partner? (1 = yes, 0 = no)}

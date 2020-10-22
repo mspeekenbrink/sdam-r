@@ -3,9 +3,9 @@ library(dplyr)
 tdat <- read.csv("helpers/Speed Dating Data.csv")
 tdat <- subset(tdat,wave %in% 6:9)
 dat <- tdat %>% group_by(iid, pid) %>% summarise(
-  age = first(age),
   gender = first(ifelse(gender == 1, "male", "female")),
-  
+  age = first(age),
+
   self_like = mean(like, na.rm = TRUE),
   other_like = mean(like_o, na.rm = TRUE),
   self_want = mean(dec, na.rm = TRUE),
