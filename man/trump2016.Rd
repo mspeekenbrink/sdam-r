@@ -3,7 +3,7 @@
 \docType{data}
 \name{trump2016}
 \alias{trump2016}
-\title{Trump votes in 2016 for 51 US states}
+\title{Trump votes in 2016 for 50 US states and the District of Columbia}
 \format{
 A data frame with 4632 rows and 5 variables:
 \describe{
@@ -23,6 +23,6 @@ CSI Without Dead Bodies "Hate Groups and Trump's Vote\%: Predictive effect prese
 trump2016
 }
 \description{
-Trump votes in 2016 for 51 US states
+Trump votes in 2016 for 50 US states and the District of Columbia
 }
 \keyword{datasets}
