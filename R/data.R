@@ -137,9 +137,9 @@
 #'   \item{pid}{(numeric) unique ID variable of date partner}
 #'   \item{gender}{(character) gender of participant (male or female)}
 #'   \item{age}{(numeric) age in years}
-#'   \item{self_like}{(numeric) how much they like their date partner in general (between  1 and 10)}
+#'   \item{date_like}{(numeric) how much they like their date partner in general (between  1 and 10)}
 #'   \item{other_like}{(numeric) how much their date partner likes them (between  1 and 10)}
-#'   \item{self_want}{do they want to go on another date with their date partner? (1 = yes, 0 = no)}
+#'   \item{date_want}{do they want to go on another date with their date partner? (1 = yes, 0 = no)}
 #'   \item{other_want}{does their date partner want to go on another date with them? (1 = yes, 0 = no)}
 #'   \item{match}{do they both want to go on another date with each other? (1 = yes, 0 = no)}
 #'   \item{self_attr}{how attractive do they think they are? (between 1 and 10)}

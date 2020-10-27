@@ -6,9 +6,9 @@ dat <- tdat %>% group_by(iid, pid) %>% summarise(
   gender = first(ifelse(gender == 1, "male", "female")),
   age = first(age),
 
-  self_like = mean(like, na.rm = TRUE),
+  date_like = mean(like, na.rm = TRUE),
   other_like = mean(like_o, na.rm = TRUE),
-  self_want = mean(dec, na.rm = TRUE),
+  date_want = mean(dec, na.rm = TRUE),
   other_want = mean(dec_o, na.rm = TRUE),
 
   match = mean(match, na.rm = TRUE),
