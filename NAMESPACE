@@ -3,6 +3,7 @@
 export(GeomFlatViolin)
 export(PositionJitternudge)
 export(center)
+export(expand_Anova)
 export(geom_flat_violin)
 export(plot_qq_marginals)
 export(plot_raincloud)

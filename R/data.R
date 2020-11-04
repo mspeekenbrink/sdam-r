@@ -156,3 +156,63 @@
 #' @source Kaggle \url{https://www.kaggle.com/annavictoria/speed-dating-experiment}
 "speeddate"
 
+#' Redistribution of wealth
+#' 
+#' It is generally found that wealthy people tend to be more opposed to policies to reduce wealth inequalities. This may be unsurprising from a classical economic standpoint, because the material burden of the redistribution of wealth will fall on wealthier people. Wealthier people are also more likely than poorer people to adopt political ideologies that oppose redistribution policies. Dawtry, Sutton, and Sibley (2015) investigated whether, in addition to such factors, “social-sampling processes” lead wealthier people to oppose redistribution policies. Social sampling is the idea that people (partly) base inferences on their social surroundings. Wealthier people tend to live in more affluent areas and move in wealthier social circles. This may bias their view of the world, where wealthier people estimate the general population to be wealthier (with less of a gap between the wealthy and the poor) than it really is.
+#' 
+#' In Experiment 1a of Dawtry, Sutton, and Sibley (2015), they assessed income and opinions for n=305 online U.S. participants recruited via Amazon’s Mechanical Turk.
+#' 
+#' @format A data frame with 305 rows and 12 variables: 
+#' \describe{
+#'   \item{id}{unique ID number for each participant}
+#'   \item{gender}{only "male" or "female" could be answered by the looks of it}
+#'   \item{age}{participant age in years}
+#'   \item{income}{yearly household income (in units of $1,000)}
+#'   \item{pol_att}{political leaning from 1="Extremely Liberal" to 9="Extremely Conservative"}
+#'   \item{PD_mean}{estimate average household income in the general US population}
+#'   \item{PD_gini}{GINI index computed for a subjective distribution of wealth in the general US population. The GINI index is a measure of wealth inequality; higher numbers mean more inequality}
+#'   \item{PD_fair}{Answer to the question "To what extent do you feel that household incomes are fairly--unfairly distributed across the US population?" on a scale from 1="Extremely Fair" to 9 = "Extremely Unfair".}
+#'   \item{PD_sat}{Answer to the question "How satisfied--dissatisfied are you with the way in which household incomes are distributed across the US population?" on a scale from 1="Extremely satisfied" to 9="Extremely dissatisfied".}
+#'   \item{SC_mean}{estimate average household income in the participant's social circles}
+#'   \item{SC_gini}{(subjective) inequality in the participant's social circles}
+#'   \item{redist}{support for wealth redistribution policies (average of four items, higher scores indicate stronger support).}
+#' }
+#' @source  \url{https://osf.io/3mftr/}. See also Dawtry, Rael J., Robbie M. Sutton, and Chris G. Sibley. 2015. “Why Wealthier People Think People Are Wealthier, and Why It Matters: From Social Sampling to Attitudes to Redistribution.” Psychological Science 26 (9): 1389–1400. \url{https://doi.org/10.1177/0956797615586560}.
+"redist2015"
+
+#' Tetris and intrusive memories
+#' 
+#' 
+#' @format A data frame with 72 rows and 28 variables: 
+#' \describe{
+#'   \item{Condition}{(factor) Condition: Control, Tetris_Reactivation, Tetris, or Reactivation}
+#'   \item{Time_of_Day}{Time of day participant commenced experiment, either "morning” or “afternoon”}
+#'   \item{BDI_II}{Beck Depression Inventory-II (BDI-II): Total score}
+#'   \item{STAI_T}{Spielberger State-Trait Anxiety Trait scale (STAI): Total score}
+#'   \item{pre_film_VAS_Sad}{Self-rated level of Sadness: Pre-film VAS mood. VAS = visual analogue scale. All VAS mood scales anchored from “not at all” to “extremely” in response to the question “Right at this very moment I am feeling”. Composite for pre-film mood calculated by summing the six pre-film VAS mood ratings}
+#'   \item{pre_film_VAS_Hopeless}{Self-rated level of Hopelessness: Pre-film VAS mood}
+#'   \item{pre_film_VAS_Depressed}{Self-rated level of Depressed: Pre-film VAS mood}
+#'   \item{pre_film_VAS_Fear}{Self-rated level of Fear: Pre-film VAS mood}
+#'   \item{pre_film_VAS_Horror}{Self-rated level of Horror: Pre-film VAS mood}
+#'   \item{pre_film_VAS_Anxious}{Self-rated level of Anxiousness: Pre-film VAS mood}
+#'   \item{post_film_VAS_Sad}{Self-rated level of Sadness: Post-film VAS mood. omposite for post-film mood calculated by summing the six post-film VAS mood ratings}
+#'   \item{post_film_VAS_Hopeless}{Self-rated level of Hopelessness: Post-film VAS mood}
+#'   \item{post_film_VAS_Depressed}{Self-rated level of Depressed: Post-film VAS mood}
+#'   \item{post_film_VAS_Fear}{Self-rated level of Fear: Post-film VAS mood}
+#'   \item{post_film_VAS_Horror}{Self-rated level of Horror: Post-film VAS mood}
+#'   \item{post_film_VAS_Anxious}{Self-rated level of Anxious: Post-film VAS mood}
+#'   \item{Attention_Paid_to_Film}{Attention paid to the film rating: How much attention did you pay to the film from 0-not at all to 10-extremely}
+#'   \item{Post_film_Distress}{Post film distress rating: How distressing did you find the film from 0-not at all to 10-extremely}
+#'   \item{Day_Zero_Number_of_Intrusions}{Day 0: Number of image-based intrusive memories in the Intrusion Diary (pre-intervention)}
+#'   \item{Days_One_to_Seven_Number_of_Intrusions}{Days 1-7: Number of image-based intrusive memories in the Intrusion Diary (post-intervention)}
+#'   \item{Visual_Recognition_Memory_Test}{Visual recognition memory test score: Number of correct responses (out of 22)}
+#'   \item{Verbal_Recognition_Memory_Test}{Verbal recognition memory test score: Number of correct responses (out of 32)}
+#'   \item{Number_of_Provocation_Task_Intrusions}{Intrusion Provocation Task (IPT):  Number of image-based intrusive memories during 2min laboratory task on Day 7}
+#'   \item{Diary_Compliance}{Diary compliance rating - indicate how accurate you think your diary is from 1 - not at all accurate to 10 extremely}
+#'   \item{IES_R_Intrusion_subscale}{Impact of Event Scale-Revised (IES-R): Intrusion Subscale}
+#'   \item{Tetris_Total_Score}{Tetris game play computer score total - cumulative (sum of all games). Only participants who played Tetris have data relating to Tetris_Total_Score}
+#'   \item{Self_Rated_Tetris_Performance}{Self-rated Tetris performance: How difficult or easy did you find the game you just played. Only participants who played Tetris have data relating to Self_Rated_Tetris_Performance.}
+#'   \item{Tetris_Demand_Rating}{Demand rating: How much did you think Tetris after a distressing film would increase or decrease intrusive memories of the film: -10: extremely decrease, to +10: extremely increase}
+#' }
+#' @source  \url{https://osf.io/ideta/}. See also James et al., ‘Computer Game Play Reduces Intrusive Memories of Experimental Trauma via Reconsolidation-Update Mechanisms’.
+"tetris2015"
