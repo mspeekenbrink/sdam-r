@@ -216,3 +216,33 @@
 #' }
 #' @source  \url{https://osf.io/ideta/}. See also James et al., ‘Computer Game Play Reduces Intrusive Memories of Experimental Trauma via Reconsolidation-Update Mechanisms’.
 "tetris2015"
+
+#` The role of experimenter belief in social priming
+#' 
+#' Data from Experiment 5 of Gilder, T. S. E., & Heerey, E. A. (2018). The Role of Experimenter Belief in Social Priming. Psychological Science, 29(3), 403–417.
+#' 
+#' \@format A data frame with 400 observations of 16 variables:
+#' \describe{
+#'    \item{pid}{Participant ID}
+#'    \item{exptrNum}{Experimenter Number}
+#'    \item{age}{Participant age in years}
+#'    \item{gender}{Participant self-reported gender}
+#'    \item{yearInUni}{Year in University}
+#'    \item{ethnicity}{Self-reported ethnicity}
+#'    \item{englishFluency}{Self-reported English fluency (1=beginner; 7=native language)}
+#'    \item{experimenterBelief}{Experimenter Belief (H: High or L: Low)}
+#'    \item{primeCond}{Actual Prime Condition (HPP: High-power prime or LPP: low-power prime)}
+#'    \item{powerPRE}{Self-reported power BEFORE the manipulation}
+#'    \item{powerPOST}{Self-reported power AFTER the manipulation}
+#'    \item{ApproachAdvantage}{Approach advantage (Avoid RT - Approach RT; see manuscript)}
+#'    \item{attractive}{Rating of experimenter ATTRACTIVENESS}
+#'    \item{competent}{Rating of experimenter COMPETENCE}
+#'    \item{friendly}{Rating of experimenter FRIENDLINESS}
+#'    \item{trustworthy}{Rating of experimenter TRUSTWORTHINESS}
+#' }
+#' @source  \url{https://osf.io/un4h6/}. See also Gilder, T. S. E., & Heerey, E. A. (2018). The Role of Experimenter Belief in Social Priming. Psychological Science, 29(3), 403–417. \url{https://doi.org/10.1177/0956797617737128}.
+"expBelief"
+
+
+
+

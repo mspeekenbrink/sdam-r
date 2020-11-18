@@ -1,6 +1,6 @@
 Package: sdamr
 Title: Statistics: Data analysis and modelling
-Version: 0.0.0.9004
+Version: 0.0.0.9005
 Authors@R: 
     person(given = "Maarten",
            family = "Speekenbrink",
