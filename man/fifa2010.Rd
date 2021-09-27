@@ -3,7 +3,7 @@
 \docType{data}
 \name{fifa2010}
 \alias{fifa2010}
-\title{Predictions by Paul the Octopus in the 2010 Fifa World Cup.}
+\title{Predictions by Paul the Octopus in the 2010 FIFA World Cup.}
 \format{
 A data frame with 8 rows and 4 variables:
 \describe{

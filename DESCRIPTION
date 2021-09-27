@@ -1,6 +1,6 @@
 Package: sdamr
-Title: Statistics: Data analysis and modelling
-Version: 0.0.0.9005
+Title: Statistics: Data Analysis and Modelling
+Version: 0.1.0
 Authors@R: 
     person(given = "Maarten",
            family = "Speekenbrink",
@@ -10,9 +10,10 @@ Authors@R:
 Description: Data sets and functions to support Statistics: Data analysis and modeling.
 License: GPL-3
 Encoding: UTF-8
+Language: en-GB
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 Depends: 
     R (>= 3.5.0)
 Imports:

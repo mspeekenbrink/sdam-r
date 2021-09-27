@@ -20,7 +20,7 @@ A data frame with 4632 rows and 5 variables:
 }
 }
 \source{
-\url{https://osf.io/pqf9r/}. See also Klein, R. A., Ratliff, K. A., Vianello, M., Adams, R. B., Jr., Bahník, Š., Bernstein, M. J., . . ., Nosek, B. A. (2014). Investigating variation in replicability: A "many labs" replication project. Social Psychology, 45(3), 142-152. \url{http://dx.doi.org/10.1027/1864-9335/a000178}
+\url{https://osf.io/pqf9r/}. See also Klein, R. A., Ratliff, K. A., Vianello, M., Adams, R. B., Jr., Bahník, Š., Bernstein, M. J., . . ., Nosek, B. A. (2014). Investigating variation in replicability: A "many labs" replication project. Social Psychology, 45(3), 142-152. \doi{10.1027/1864-9335/a000178}
 }
 \usage{
 anchoring

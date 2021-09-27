@@ -4,7 +4,7 @@
 \alias{plot_raincloud}
 \title{Create a raincloud plot}
 \source{
-Allen M, Poggiali D, Whitaker K et al. Raincloud plots: a multi-platform tool for robust data visualization. Wellcome Open Res 2019, 4:63 (\url{https://doi.org/10.12688/wellcomeopenres.15191.1})
+Allen M, Poggiali D, Whitaker K et al. Raincloud plots: a multi-platform tool for robust data visualization. Wellcome Open Res 2019, 4:63 (\doi{10.12688/wellcomeopenres.15191.1})
 }
 \usage{
 plot_raincloud(data, y, horizontal = FALSE, groups, point_size = 0.5, ...)

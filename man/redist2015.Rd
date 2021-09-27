@@ -22,7 +22,7 @@ A data frame with 305 rows and 12 variables:
 }
 }
 \source{
-\url{https://osf.io/3mftr/}. See also Dawtry, Rael J., Robbie M. Sutton, and Chris G. Sibley. 2015. “Why Wealthier People Think People Are Wealthier, and Why It Matters: From Social Sampling to Attitudes to Redistribution.” Psychological Science 26 (9): 1389–1400. \url{https://doi.org/10.1177/0956797615586560}.
+\url{https://osf.io/3mftr/}. See also Dawtry, Rael J., Robbie M. Sutton, and Chris G. Sibley. 2015. “Why Wealthier People Think People Are Wealthier, and Why It Matters: From Social Sampling to Attitudes to Redistribution.” Psychological Science 26 (9): 1389–1400. \doi{10.1177/0956797615586560}.
 }
 \usage{
 redist2015

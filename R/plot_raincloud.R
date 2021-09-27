@@ -6,7 +6,7 @@
 #' @param groups An unquoted name of grouping variable in data (ideally a factor)
 #' @param point_size Size of the jittered points
 #' @param ... Other arguments, passed to ggplot(aes(...))
-#' @source  Allen M, Poggiali D, Whitaker K et al. Raincloud plots: a multi-platform tool for robust data visualization. Wellcome Open Res 2019, 4:63 (\url{https://doi.org/10.12688/wellcomeopenres.15191.1})  
+#' @source  Allen M, Poggiali D, Whitaker K et al. Raincloud plots: a multi-platform tool for robust data visualization. Wellcome Open Res 2019, 4:63 (\doi{10.12688/wellcomeopenres.15191.1})
 #' @examples
 #' data(anchoring)
 #' plot_raincloud(anchoring,y=everest_feet)

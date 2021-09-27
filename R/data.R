@@ -13,7 +13,7 @@
 #' @source \url{https://en.wikipedia.org/wiki/Paul_the_Octopus}
 "uefa2008"
 
-#' Predictions by Paul the Octopus in the 2010 Fifa World Cup.
+#' Predictions by Paul the Octopus in the 2010 FIFA World Cup.
 #'
 #' A dataset containing the predictions and outcomes of matches
 #' in the 2010 FIFA European Cup.
@@ -67,7 +67,7 @@
 #'   \item{everest_feet}{judged height of Mount Everest in feet. Converted from meters if given in meters.}
 #'   \item{everest_meters}{judged height of Mount Everest in meters. Only contains values when judgment was actually given in meters.}
 #' }
-#' @source  \url{https://osf.io/pqf9r/}. See also Klein, R. A., Ratliff, K. A., Vianello, M., Adams, R. B., Jr., Bahník, Š., Bernstein, M. J., . . ., Nosek, B. A. (2014). Investigating variation in replicability: A "many labs" replication project. Social Psychology, 45(3), 142-152. \url{http://dx.doi.org/10.1027/1864-9335/a000178}
+#' @source  \url{https://osf.io/pqf9r/}. See also Klein, R. A., Ratliff, K. A., Vianello, M., Adams, R. B., Jr., Bahník, Š., Bernstein, M. J., . . ., Nosek, B. A. (2014). Investigating variation in replicability: A "many labs" replication project. Social Psychology, 45(3), 142-152. \doi{10.1027/1864-9335/a000178}
 "anchoring"
 
 #' Trump votes in 2016 for 50 US states and the District of Columbia
@@ -177,7 +177,7 @@
 #'   \item{SC_gini}{(subjective) inequality in the participant's social circles}
 #'   \item{redist}{support for wealth redistribution policies (average of four items, higher scores indicate stronger support).}
 #' }
-#' @source  \url{https://osf.io/3mftr/}. See also Dawtry, Rael J., Robbie M. Sutton, and Chris G. Sibley. 2015. “Why Wealthier People Think People Are Wealthier, and Why It Matters: From Social Sampling to Attitudes to Redistribution.” Psychological Science 26 (9): 1389–1400. \url{https://doi.org/10.1177/0956797615586560}.
+#' @source  \url{https://osf.io/3mftr/}. See also Dawtry, Rael J., Robbie M. Sutton, and Chris G. Sibley. 2015. “Why Wealthier People Think People Are Wealthier, and Why It Matters: From Social Sampling to Attitudes to Redistribution.” Psychological Science 26 (9): 1389–1400. \doi{10.1177/0956797615586560}.
 "redist2015"
 
 #' Tetris and intrusive memories
@@ -195,7 +195,7 @@
 #'   \item{pre_film_VAS_Fear}{Self-rated level of Fear: Pre-film VAS mood}
 #'   \item{pre_film_VAS_Horror}{Self-rated level of Horror: Pre-film VAS mood}
 #'   \item{pre_film_VAS_Anxious}{Self-rated level of Anxiousness: Pre-film VAS mood}
-#'   \item{post_film_VAS_Sad}{Self-rated level of Sadness: Post-film VAS mood. omposite for post-film mood calculated by summing the six post-film VAS mood ratings}
+#'   \item{post_film_VAS_Sad}{Self-rated level of Sadness: Post-film VAS mood. Composite for post-film mood calculated by summing the six post-film VAS mood ratings}
 #'   \item{post_film_VAS_Hopeless}{Self-rated level of Hopelessness: Post-film VAS mood}
 #'   \item{post_film_VAS_Depressed}{Self-rated level of Depressed: Post-film VAS mood}
 #'   \item{post_film_VAS_Fear}{Self-rated level of Fear: Post-film VAS mood}
@@ -214,7 +214,7 @@
 #'   \item{Self_Rated_Tetris_Performance}{Self-rated Tetris performance: How difficult or easy did you find the game you just played. Only participants who played Tetris have data relating to Self_Rated_Tetris_Performance.}
 #'   \item{Tetris_Demand_Rating}{Demand rating: How much did you think Tetris after a distressing film would increase or decrease intrusive memories of the film: -10: extremely decrease, to +10: extremely increase}
 #' }
-#' @source  \url{https://osf.io/ideta/}. See also James et al., ‘Computer Game Play Reduces Intrusive Memories of Experimental Trauma via Reconsolidation-Update Mechanisms’.
+#' @source  \url{https://osf.io/ideta/}. See also James et al., 'Computer Game Play Reduces Intrusive Memories of Experimental Trauma via Reconsolidation-Update Mechanisms'.
 "tetris2015"
 
 #` The role of experimenter belief in social priming
@@ -240,9 +240,24 @@
 #'    \item{friendly}{Rating of experimenter FRIENDLINESS}
 #'    \item{trustworthy}{Rating of experimenter TRUSTWORTHINESS}
 #' }
-#' @source  \url{https://osf.io/un4h6/}. See also Gilder, T. S. E., & Heerey, E. A. (2018). The Role of Experimenter Belief in Social Priming. Psychological Science, 29(3), 403–417. \url{https://doi.org/10.1177/0956797617737128}.
+#' @source  \url{https://osf.io/un4h6/}. See also Gilder, T. S. E., & Heerey, E. A. (2018). The Role of Experimenter Belief in Social Priming. Psychological Science, 29(3), 403–417. \doi{10.1177/0956797617737128}.
 "expBelief"
 
-
-
-
+#` The cheerleader effect
+#' 
+#' Data from Experiment 1 of Carragher, D.J., Thomas, N.A., Gwinn, O.S. et al. (2019) Limited evidence of hierarchical encoding in the cheerleader effect. Scientific Reports, 9, 9329. https://doi.org/10.1038/s41598-019-45789-6
+#' 
+#' \@format A data frame with 320 observations of 16 variables:
+#' \describe{
+#'    \item{Participant}{(factor) Participant ID}
+#'    \item{Age}{(numeric) Participant age in years}
+#'    \item{Sex}{(factor) Participant sex (Male or Female)}
+#'    \item{Task}{(factor) Identical-Distractors, or Self-Distractors.}
+#'    \item{LineClickAccuracy}{Measure of average response deviation from the visual analogue scale; scores > +/- 2.00 constitute exclusion.}
+#'    \item{Excluded}{(numeric) Indicator whether participant was excluded from main analysis (0 = no, 1 = yes)}
+#'    \item{WhyExcluded}{(character) explanation for exclusion}
+#'    \item{Item}{(factor) Item description}
+#'    \item{Response}{Attractiveness rating for the target face on a visual analogue scale ranging from “Very Unattractive” (0) to “Very Attractive” (100)}
+#' }
+#' @source  \url{https://osf.io/je5u7/}. Carragher, D.J., Thomas, N.A., Gwinn, O.S. et al. (2019) Limited evidence of hierarchical encoding in the cheerleader effect. Scientific Reports, 9, 9329 \doi{10.1038/s41598-019-45789-6}.
+"cheerleader"

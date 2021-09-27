@@ -3,3 +3,4 @@
 ^LICENSE\.md$
 ^inst
 ^helpers
+^cran-comments\.md$

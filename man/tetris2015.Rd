@@ -17,7 +17,7 @@ A data frame with 72 rows and 28 variables:
 \item{pre_film_VAS_Fear}{Self-rated level of Fear: Pre-film VAS mood}
 \item{pre_film_VAS_Horror}{Self-rated level of Horror: Pre-film VAS mood}
 \item{pre_film_VAS_Anxious}{Self-rated level of Anxiousness: Pre-film VAS mood}
-\item{post_film_VAS_Sad}{Self-rated level of Sadness: Post-film VAS mood. omposite for post-film mood calculated by summing the six post-film VAS mood ratings}
+\item{post_film_VAS_Sad}{Self-rated level of Sadness: Post-film VAS mood. Composite for post-film mood calculated by summing the six post-film VAS mood ratings}
 \item{post_film_VAS_Hopeless}{Self-rated level of Hopelessness: Post-film VAS mood}
 \item{post_film_VAS_Depressed}{Self-rated level of Depressed: Post-film VAS mood}
 \item{post_film_VAS_Fear}{Self-rated level of Fear: Post-film VAS mood}
@@ -38,7 +38,7 @@ A data frame with 72 rows and 28 variables:
 }
 }
 \source{
-\url{https://osf.io/ideta/}. See also James et al., ‘Computer Game Play Reduces Intrusive Memories of Experimental Trauma via Reconsolidation-Update Mechanisms’.
+\url{https://osf.io/ideta/}. See also James et al., 'Computer Game Play Reduces Intrusive Memories of Experimental Trauma via Reconsolidation-Update Mechanisms'.
 }
 \usage{
 tetris2015
