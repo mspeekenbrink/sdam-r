@@ -22,8 +22,11 @@ plot_raincloud(data, y, horizontal = FALSE, groups, point_size = 0.5, ...)
 
 \item{...}{Other arguments, passed to ggplot(aes(...))}
 }
+\value{
+An object of class \code{gg}, i.e. a \code{ggplot} object from the \code{ggplot2} package
+}
 \description{
-Create a raincloud plot
+\code{plot_raincloud} creates a raincloud plot to display the distribution of data by a combination of a a boxplot, a kernel density plot, and a scatterplot. The boxplot includes the median (displayed as a horizontal line) and the mean (displayed as a point). It does not indicate potential outliers, as these can be seen in the scatter plot. The kernel density plot provides a nonparametric estimate of the distribution. The scatterplot depicts all values in \code{y} with random jittering on the x-axis. The data can be grouped by supplying a grouping factor in the \code{groups} argument, in which case multiple raincloud plots are shown side by side. As \code{plot_raincloud} provides a \code{ggplot2::ggplot} object, it can be combined with further layers and functionality from the \code{ggplot2} package.
 }
 \examples{
 data(anchoring)
@@ -32,4 +35,7 @@ plot_raincloud(anchoring,y=everest_feet,groups=anchor)
 plot_raincloud(anchoring,y=everest_feet,groups=anchor) + 
     ggplot2::facet_wrap(~us_or_international) + 
     ggplot2::ylab("How high is Mount Everest (in feet)?")
+}
+\seealso{
+\code{\link[ggplot2:ggplot]{ggplot2::ggplot()}} for information about ggplot objects, \code{\link[ggplot2:theme]{ggplot2::theme()}} for information about changing various aspects of the plot, and \code{\link[ggplot2:facet_wrap]{ggplot2::facet_wrap()}} and \code{\link[ggplot2:facet_grid]{ggplot2::facet_grid()}} for creating multiple raincloud plots for different levels of grouping factors beyond those specified in \code{groups}.
 }

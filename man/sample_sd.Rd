@@ -11,8 +11,11 @@ sample_sd(x, na.rm = FALSE)
 
 \item{na.rm}{(logical) Should missing values be removed?}
 }
+\value{
+A single numeric value equal to the sample variance
+}
 \description{
-Compute the sample standard deviation
+\code{sample_sd} computes the sample standard deviation, i.e. the square root of the sum of squared deviations of \code{x} from the mean divided by the total number of observations. This is in contrast to \code{sd}, which computes an unbiased estimate of the standard deviation (i.e. it divides the sum of squared deviations by n - 1).
 }
 \examples{
 data(anchoring)

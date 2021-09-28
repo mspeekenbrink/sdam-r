@@ -2,15 +2,18 @@
 % Please edit documentation in R/center.R
 \name{center}
 \alias{center}
-\title{Mean-center a variable}
+\title{Mean-centered values}
 \usage{
 center(x)
 }
 \arguments{
 \item{x}{Numeric vector}
 }
+\value{
+A numeric vector with mean-centered values
+}
 \description{
-This is a convenience function equal to scale(x, scale=FALSE)
+\code{center} computes mean-centered values. It is a convenience wrapper to \code{scale}, equal to scale(x, scale=FALSE)
 }
 \examples{
 data(anchoring)

@@ -23,6 +23,8 @@
 #' @param show.legend Logical
 #' @param inherit.aes Logical
 #' @param ... other arguments
+#' @return A layer for a \code{ggplot2::ggplot} object, similar to e.g. \code{ggplot2::geom_violin}.
+#' @seealso [ggplot2::geom_violin()], which provided the basis of this function.
 #' 
 #' @examples 
 #' library(ggplot2)

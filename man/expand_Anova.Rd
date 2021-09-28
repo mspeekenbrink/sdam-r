@@ -7,7 +7,7 @@
 expand_Anova(mod, type = c("III", "II", 3, 2), ...)
 }
 \arguments{
-\item{mod}{A model of class lm}
+\item{mod}{A model of class lm (see ?stats::lm)}
 
 \item{type}{SS Type (see ?car::Anova)}
 
@@ -17,6 +17,9 @@ expand_Anova(mod, type = c("III", "II", 3, 2), ...)
 Object of class anova returned by car::Anova
 }
 \description{
+\code{expand_Anova} is an experimental function to add more detailed results to those returned by \code{car::Anova}. In particular, \code{expand_Anova} aims to provide test results for all individual contrasts assigned to the factors in a linear model, in addition to the omnibus tests returned by \code{car::Anova}.
+}
+\details{
 This is an experimental function
 }
 \examples{
@@ -24,4 +27,7 @@ data("tetris2015")
 mod <- lm(Days_One_to_Seven_Number_of_Intrusions ~ Condition, data=tetris2015)
 car::Anova(mod,type=3) # default type III Anova table
 expand_Anova(mod,type=3)
+}
+\seealso{
+\code{\link[car:Anova]{car::Anova()}} for more information about the Anova tables, and \code{\link[stats:lm]{stats::lm()}} for information about how to specify the model
 }

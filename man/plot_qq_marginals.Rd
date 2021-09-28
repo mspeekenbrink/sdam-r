@@ -2,7 +2,7 @@
 % Please edit documentation in R/plot_qq_marginals.R
 \name{plot_qq_marginals}
 \alias{plot_qq_marginals}
-\title{A Q-Q plot with histograms in the marginals}
+\title{Q-Q plots with distributions in the margins}
 \usage{
 plot_qq_marginals(
   x,
@@ -44,8 +44,11 @@ plot_qq_marginals(
 
 \item{...}{Further arguments}
 }
+\value{
+No return value. The function adds a plot to the active graphics window.
+}
 \description{
-A Q-Q plot with histograms in the marginals
+\code{plot_qq_marginals} creates an enhanced Q-Q plot with the observed and theoretical distributions shown in the margins of the plot.
 }
 \examples{
 data(anchoring)

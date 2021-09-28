@@ -4,3 +4,4 @@
 ^inst
 ^helpers
 ^cran-comments\.md$
+^CRAN-RELEASE$

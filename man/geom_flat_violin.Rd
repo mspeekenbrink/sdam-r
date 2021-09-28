@@ -38,6 +38,9 @@ geom_flat_violin(
 
 \item{...}{other arguments}
 }
+\value{
+A layer for a \code{ggplot2::ggplot} object, similar to e.g. \code{ggplot2::geom_violin}.
+}
 \description{
 Half violin plot
 }
@@ -45,4 +48,7 @@ Half violin plot
 library(ggplot2)
 data(diamonds)
 ggplot(diamonds, aes(cut, carat)) + geom_flat_violin() + coord_flip()
+}
+\seealso{
+\code{\link[ggplot2:geom_violin]{ggplot2::geom_violin()}}, which provided the basis of this function.
 }

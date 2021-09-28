@@ -9,12 +9,15 @@ sample_mode(x)
 \arguments{
 \item{x}{Numeric vector}
 }
+\value{
+A single numeric value equal to the sample mode
+}
 \description{
-Compute a sample mode
+\code{sample_mode} computes the sample mode, i.e. the value in \code{x} with the highest frequency of occurrence. If there are multiple modes, the mode that occurs first in \code{x} is returned, with a warning that lists the other modes found.
 }
 \examples{
 data(anchoring)
 sample_mode(anchoring$everest_feet)
 # Multiple modes give a warning:
-sample_mode(c(1,1,1,2,2,2))
+sample_mode(c(3,3,3,1,1,1,2,2,2))
 }

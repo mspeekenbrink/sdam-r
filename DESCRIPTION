@@ -7,13 +7,23 @@ Authors@R:
            role = c("aut", "cre"),
            email = "m.speekenbrink@ucl.ac.uk",
            comment = c(ORCID = "0000-0003-3221-1091"))
-Description: Data sets and functions to support Statistics: Data analysis and modeling.
+Description: Data sets and functions to support the books "Statistics: Data 
+        analysis and modelling" by Speekenbrink, M. (2021) 
+        <https://mspeekenbrink.github.io/sdam-book/> and "An R companion to 
+        Statistics: data analysis and modelling" by Speekenbrink, M. (2021) 
+        <https://mspeekenbrink.github.io/sdam-r-companion/>. All datasets 
+        analysed in these books are provided in this package. In addition, the 
+        package provides functions to compute sample statistics (variance, 
+        standard deviation, mode), create raincloud and enhanced Q-Q plots, and 
+        expand Anova results into omnibus tests and tests of individual 
+        contrasts. 
 License: GPL-3
 Encoding: UTF-8
 Language: en-GB
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+URL: https://mspeekenbrink.github.io/sdam-r/
 Depends: 
     R (>= 3.5.0)
 Imports:

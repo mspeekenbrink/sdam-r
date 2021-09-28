@@ -7,6 +7,8 @@
 #' @param nudge.x the amount to nudge in the x direction.
 #' @param nudge.y the amount to nudge in the y direction.
 #' @param seed Optional seed for the random jitter
+#' @return Positions for data in a \code{ggplot2::ggplot} object, similar to e.g. \code{ggplot2::position_jitter}
+#' @seealso [ggplot2::position_jitter()], which is the basis of this function.
 #' @export
 #' @examples
 #' library(ggplot2)

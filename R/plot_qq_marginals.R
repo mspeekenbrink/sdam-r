@@ -4,7 +4,7 @@
 # to run this you will need the grid package; you can install
 #   this with e.g. install.packages("grid"")
 
-#' A Q-Q plot with histograms in the marginals
+#' Q-Q plots with distributions in the margins
 #' 
 #' @param x A numeric vector
 #' @param breaks How to compute breakpoints for the histogram. See ?hist
@@ -18,6 +18,8 @@
 #' @param axes (logical) Draw axes?
 #' @param border (logical) Draw a border?
 #' @param ... Further arguments
+#' @description \code{plot_qq_marginals} creates an enhanced Q-Q plot with the observed and theoretical distributions shown in the margins of the plot.
+#' @return No return value. The function adds a plot to the active graphics window.
 #' @examples
 #' data(anchoring)
 #' plot_qq_marginals(anchoring$everest_feet)

@@ -2,10 +2,12 @@
 #' 
 #' This is an experimental function
 #' 
-#' @param mod A model of class lm
+#' @param mod A model of class lm (see ?stats::lm)
 #' @param type SS Type (see ?car::Anova)
 #' @param ... Further arguments passed to Anova
+#' @description \code{expand_Anova} is an experimental function to add more detailed results to those returned by \code{car::Anova}. In particular, \code{expand_Anova} aims to provide test results for all individual contrasts assigned to the factors in a linear model, in addition to the omnibus tests returned by \code{car::Anova}. 
 #' @return Object of class anova returned by car::Anova
+#' @seealso [car::Anova()] for more information about the Anova tables, and [stats::lm()] for information about how to specify the model 
 #' @examples
 #' data("tetris2015")
 #' mod <- lm(Days_One_to_Seven_Number_of_Intrusions ~ Condition, data=tetris2015)

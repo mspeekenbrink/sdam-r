@@ -1,3 +1,15 @@
+## Resubmission
+This is a resubmission. In this version I have:
+
+* Expanded the description of the DESCRIPTION file by providing references to 
+  the book "Statistics: Data analysis and modelling" and 
+  the R companion, and providing more information about the package 
+  functionality.
+
+* Added missing \value fields to the .Rd files for all exported functions.
+
+* Expanded \description fields in the .Rd files for exported functions.
+
 ## Test environments
 * local install on Ubuntu 20.04, R 4.1.1
 * win-builder (devel and release)

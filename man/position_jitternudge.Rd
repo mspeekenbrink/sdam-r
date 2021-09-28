@@ -24,6 +24,9 @@ resolution of the data.}
 
 \item{seed}{Optional seed for the random jitter}
 }
+\value{
+Positions for data in a \code{ggplot2::ggplot} object, similar to e.g. \code{ggplot2::position_jitter}
+}
 \description{
 Simultaneously nudge and jitter
 }
@@ -33,5 +36,8 @@ dsub <- diamonds[ sample(nrow(diamonds), 1000), ]
 ggplot(dsub, aes(x = cut, y = carat, fill = clarity)) +
   geom_boxplot(outlier.size = 0) +
   geom_point(pch = 21, position = position_jitterdodge())
+}
+\seealso{
+\code{\link[ggplot2:position_jitter]{ggplot2::position_jitter()}}, which is the basis of this function.
 }
 \concept{position adjustments}
