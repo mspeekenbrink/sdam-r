@@ -261,3 +261,24 @@
 #' }
 #' @source  \url{https://osf.io/je5u7/}. Carragher, D.J., Thomas, N.A., Gwinn, O.S. et al. (2019) Limited evidence of hierarchical encoding in the cheerleader effect. Scientific Reports, 9, 9329 \doi{10.1038/s41598-019-45789-6}.
 "cheerleader"
+
+#` Metacognition
+#' 
+#' Data from Rausch, M. & Zehetleitner, M. (2016) Visibility is not equivalent to confidence in a low contrast orientation discrimination task. Frontiers in Psychology, 7, p. 591 \doi{10.3389/fpsyg.2016.00591}
+#' 
+#' \@format A data frame with 7560 observations of 10 variables:
+#' \describe{
+#'    \item{id}{(factor) Participant ID}
+#'    \item{age}{(numeric) Participant age in years}
+#'    \item{sex}{(factor) Participant sex (male or female)}
+#'    \item{block}{(numeric) number of the test block (from 1 to 9). Practice block is excluded.}
+#'    \item{trial}{(numeric) number of trial (between 1 and 42) within a block.}
+#'    \item{tilt}{(numeric) whether grating is horizontal (0) or vertical (90)}
+#'    \item{contrast}{(numeric) contrast of grating shown}
+#'    \item{correct}{(numeric) Whether identified title was correct (1) or not (0)}
+#'    \item{visibility}{(numeric) Rated visibility of the stimulus, on a scale between 0 () and 100 ()}
+#'    \item{confidence}{(numeric) Rated confidence in tilt identification, on a scale between 0 () and 100 ()}
+#' }
+#' @source  \url{https://osf.io/vk6fe/}. Rausch, M. & Zehetleitner, M. (2016) Visibility is not equivalent to confidence in a low contrast orientation discrimination task. Frontiers in Psychology, 7, p. 591 \doi{10.3389/fpsyg.2016.00591}.
+"metacognition"
+

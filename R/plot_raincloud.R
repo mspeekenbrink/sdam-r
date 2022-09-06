@@ -38,7 +38,7 @@ plot_raincloud <- function(data,y,horizontal=FALSE,groups,point_size=.5,...) {
       geom_flat_violin(position=ggplot2::position_nudge(x=.05,y=0), adjust =2, trim = TRUE) +
       ggplot2::geom_point(position = position_jitternudge(jitter.width = .25, nudge.x = -.175), size = point_size) +
       ggplot2::geom_boxplot(outlier.shape = NA, alpha = 1, width = .1, colour = "BLACK") +
-      ggplot2::guides(fill = FALSE, colour = FALSE) +
+      ggplot2::guides(fill = "none", colour = "none") +
       ggplot2::stat_summary(fun="mean", colour = "BLACK")
       #ggplot2::scale_colour_brewer(palette = "Dark2") +
       #ggplot2::scale_fill_brewer(palette = "Dark2")
