@@ -282,3 +282,34 @@
 #' @source  \url{https://osf.io/vk6fe/}. Rausch, M. & Zehetleitner, M. (2016) Visibility is not equivalent to confidence in a low contrast orientation discrimination task. Frontiers in Psychology, 7, p. 591 \doi{10.3389/fpsyg.2016.00591}.
 "metacognition"
 
+#` Gestures
+#' 
+#' Data from Winter, B., & Burkner, P. (2021) Poisson regression for linguists: A tutorial introduction to modelling count data with brms. Language and Linguistics Compass, 15, e12439 \doi{10.1111/lnc3.12439}
+#' 
+#' \@format A data frame with 54 observations of 6 variables:
+#' \describe{
+#'    \item{ID}{(factor) Participant ID}
+#'    \item{context}{(factor) Whether talking to a friend or professor}
+#'    \item{duration}{(numeric) Duration of the interaction}
+#'    \item{language}{(factor) Language spoken: Catalan or Korean}
+#'    \item{gender}{(factor) Participant gender (M = male, F = female)}
+#'    \item{gestures}{(numeric) number of gestures in the interaction.}
+#' }
+#' @source  \url{https://osf.io/6j8kc}.
+"gestures"
+
+#` Newspapers and votes in the 2017 UK election
+#' 
+#' Data based on a post-election survey by YouGov (see \url{https://yougov.co.uk/topics/politics/articles-reports/2017/06/13/how-britain-voted-2017-general-election}). Note that the data was recreated by combining frequency and percentage results reported in \url{https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/smo1w49ph1/InternalResults_170613_2017Election_Demographics_W.pdf}. Due to rounding and other potential inconsistencies, this data set will likely differ from the actual results.
+#' 
+#' \@format A data frame with 90 observations of 3 variables:
+#' \describe{
+#'    \item{newspaper}{(factor) Reported newspaper read most often}
+#'    \item{vote}{(factor) Which party voted on (including "did not vote")}
+#'    \item{n}{(numeric) Number of people in the survey who responded with that combination of newspaper and vote}
+#' }
+#' @source  \url{https://d25d2506sfb94s.cloudfront.net/cumulus_uploads/document/smo1w49ph1/InternalResults_170613_2017Election_Demographics_W.pdf}.
+"papervotes"
+
+
+
