@@ -312,4 +312,22 @@
 "papervotes"
 
 
+#` Rock-Paper-Scissors
+#' 
+#' Data from Experiment 1 in Guennouni, I., Speekenbrink, M. (2022). Transfer of learned opponent models in repeated games. Computational Brain and Behaviour, 5, 326–342 \doi{10.1007/s42113-022-00133-6}. Participants (n=52) each play 50 rounds of Rock-Paper-Scissors against an AI player who either adopts a "level-1" or "level-2" strategy. A level-1 strategy assumes the opponent will repeat their last action, and chooses the action that beats this. A level-2 strategy assumes the opponent adopts a level-1 strategy, and chooses the action that beats this. On 10% of rounds, the AI players pick a random action. On the remainder, they act according to their strategy.
+#' 
+#' \@format A data frame with 2600 observations of 6 variables:
+#' \describe{
+#'    \item{id}{(factor) Participant ID}
+#'    \item{ai_strategy}{(factor) Strategy adopted by AI player}
+#'    \item{round}{(numeric) Round number (between 1 and 50)}
+#'    \item{human_action}{(factor) Action taken by human (rock, paper, or scissors)}
+#'    \item{ai_action}{(factor) Action taken by AI (rock, paper, or scissors)}
+#'    \item{score}{(numeric) Outcome for human player, where 1 indicates a win, -1 a loss, and 0 a tie}
+#' }
+#' @source  Guennouni, I., Speekenbrink, M. (2022). Transfer of learned opponent models in repeated games. Computational Brain and Behaviour, 5, 326–342. \doi{10.1007/s42113-022-00133-6}
+"rps"
+
+
+
 
