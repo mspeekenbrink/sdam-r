@@ -67,7 +67,7 @@
 #'   \item{everest_feet}{judged height of Mount Everest in feet. Converted from meters if given in meters.}
 #'   \item{everest_meters}{judged height of Mount Everest in meters. Only contains values when judgment was actually given in meters.}
 #' }
-#' @source  \url{https://osf.io/pqf9r/}. See also Klein, R. A., Ratliff, K. A., Vianello, M., Adams, R. B., Jr., Bahník, Š., Bernstein, M. J., . . ., Nosek, B. A. (2014). Investigating variation in replicability: A "many labs" replication project. Social Psychology, 45(3), 142-152. \doi{10.1027/1864-9335/a000178}
+#' @source  \url{https://osf.io/pqf9r/}. See also Klein, R. A., Ratliff, K. A., Vianello, M., Adams, R. B., Jr., Bahník, S., Bernstein, M. J., . . ., Nosek, B. A. (2014). Investigating variation in replicability: A "many labs" replication project. Social Psychology, 45(3), 142-152. \doi{10.1027/1864-9335/a000178}
 "anchoring"
 
 #' Trump votes in 2016 for 50 US states and the District of Columbia
@@ -83,7 +83,7 @@
 #'   \item{percent_in_poverty}{Percentage of citizens below the poverty threshold}
 #'   \item{percent_Trump_votes}{Percentage of votes for Trump in the 2016 elections}
 #' }
-#' @source CSI Without Dead Bodies "Hate Groups and Trump's Vote%: Predictive effect present when education and poverty are considered" \url{https://www.csiwithoutdeadbodies.com/2017/02/hate-groups-and-trumps-vote-predictive.html}
+#' @source CSI Without Dead Bodies "Hate Groups and Trump's Vote%: Predictive effect present when education and poverty are considered" \url{https://web.archive.org/web/20210414051437/https://www.csiwithoutdeadbodies.com/2017/02/hate-groups-and-trumps-vote-predictive.html}
 "trump2016"
 
 #' Legacy motives and pro-environmental behaviour
@@ -327,7 +327,3 @@
 #' }
 #' @source  Guennouni, I., Speekenbrink, M. (2022). Transfer of learned opponent models in repeated games. Computational Brain and Behaviour, 5, 326–342. \doi{10.1007/s42113-022-00133-6}
 "rps"
-
-
-
-

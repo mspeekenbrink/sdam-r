@@ -17,7 +17,7 @@ A data frame with 4632 rows and 5 variables:
 }
 }
 \source{
-CSI Without Dead Bodies "Hate Groups and Trump's Vote\%: Predictive effect present when education and poverty are considered" \url{https://www.csiwithoutdeadbodies.com/2017/02/hate-groups-and-trumps-vote-predictive.html}
+CSI Without Dead Bodies "Hate Groups and Trump's Vote\%: Predictive effect present when education and poverty are considered" \url{https://web.archive.org/web/20210414051437/https://www.csiwithoutdeadbodies.com/2017/02/hate-groups-and-trumps-vote-predictive.html}
 }
 \usage{
 trump2016
