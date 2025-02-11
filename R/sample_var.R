@@ -13,8 +13,7 @@ sample_var <- function(x, na.rm = FALSE) {
   x <- as.vector(x)
   if(na.rm) {
     x <- x[!is.na(x)]
-  } else {
-    n <- length(x)
   }
+  n <- length(x)
   return((n-1)*stats::var(x)/n)
 }
